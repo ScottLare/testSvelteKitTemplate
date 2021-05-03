@@ -1,0 +1,30 @@
+{
+	"name": "sveltekit-template",
+	"version": "0.0.1",
+	"private": true,
+	"license": "UNLICENSED",
+	"devDependencies": {
+		"@sveltejs/adapter-static": "^1.0.0-next.7",
+		"@sveltejs/kit": "^1.0.0-next.94",
+		"@typescript-eslint/eslint-plugin": "^4.19.0",
+		"@typescript-eslint/parser": "^4.19.0",
+		"eslint": "^7.25.0",
+		"eslint-plugin-svelte3": "^3.2.0",
+		"mdsvex": "^0.9.3",
+		"sass": "^1.32.12",
+		"svelte": "^3.38.1",
+		"svelte-preprocess": "^4.7.2",
+		"tslib": "^2.2.0",
+		"typescript": "^4.2.4",
+		"vite": "^2.2.3"
+	},
+	"type": "module",
+	"engines": {
+		"node": ">= 12.17.0"
+	},
+	"scripts": {
+		"start": "svelte-kit dev --port 80 --open",
+		"build": "tsc --noEmit && svelte-kit build",
+		"serve": "svelte-kit start --port 80"
+	}
+}
